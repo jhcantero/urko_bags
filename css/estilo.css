@@ -1,0 +1,249 @@
+.fuenteTextos {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.colorAzul {
+	color:#6a2c70;
+}
+
+.textoParrafos {
+	color:#6a2c70;
+}
+
+
+ul li {
+	list-style-type: none;
+}	
+
+h2 {
+	font-size: 25px;
+	margin-top: 30px;
+
+}
+
+.fondoColor {
+	background-color: #f08a5d;
+}
+
+.colorLetraCinturon {
+	color: #b83b5e
+}
+
+.fondoFooter {	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+ 	color: #eeecda;
+ 	background-image: linear-gradient(#b83b5e,#f08a5d);
+ 	font-size: 80%;
+	margin-top: 40px;
+	padding-top: 15px;
+ }
+
+.descProductos	{
+	font-family: 'Roboto', sans-serif;
+	color:#6a2c70;
+}
+
+.letraChica {
+	font-size: smaller;
+}	
+
+#lineHeader {
+	background-color: #f08a5d;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	letter-spacing: 3px;
+	padding: 5px 0;
+	margin: 0;
+}
+
+.header__logo--Flex {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+
+}
+
+.header__nav--Flex {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+}
+
+body {
+	margin:0;
+	padding:0px;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.centrado {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.cinturonMail {
+	color: #6a2c70;
+	background-image: radial-gradient(#eeecda,#f08a5d);
+	justify-content: center;
+	padding: 7px 10px 12px 10px;
+	align-content: center;
+	margin-top: 30px;
+}
+
+.header__redes--flex { 
+	display: flex;
+	flex-direction: row;
+	margin: 35px 0 0 0px;
+	padding-left: 35px;
+}
+
+.margenIzq {
+	padding-left: 10px;
+}
+
+nav {
+	padding-top: 32px;
+	padding-left: 25px;
+	padding-right: 45px;
+	margin: 20px;
+}
+
+.enLinea {
+	display: flex;
+	flex-direction: row;
+	margin: 0px 430px 0px 430px; 
+}
+
+.espacios {
+	margin: 6px;
+}
+
+.distribuirHorizontal {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}	
+
+.anchoEmail {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 350px;
+	align-items: center;
+	margin: auto;
+}
+
+.anchoBoton {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-basis: 70px;
+	margin: auto;
+}
+
+.padding {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 13px;
+	padding-right: 13px; 
+}
+
+.gridProductos {
+	display: grid;
+	grid-template-columns: 320px 320px 320px 320px;
+    grid-template-rows: 50px 210px 80px;
+	
+
+}
+
+.fuenteDescripciones {
+	font-size: 80%
+}
+
+.subtitProductos {
+	display: flex;
+	justify-content: center;
+	color: #6a2c70;
+	padding: 10px;
+	background-color: #f08a5d;
+	font-size: 120%;
+}
+
+
+.iconRedes {
+	font-size: 2.5em;
+	color: #000;
+}
+
+.botonFbk {
+	margin: 35px 55px 0 0;
+}
+
+
+.efectoBotones {
+  	transition: all 1s;   
+}
+
+.efectoBotones:hover {
+   padding: 10px;
+   border-radius: 6px;
+   color: #eeecda;
+   background-color: #6a2c70;
+}
+
+.margen {
+	margin: 0 0 0 40px;
+	font-size: 100%;
+}
+
+
+.margenBody {
+	margin: 20px;
+}
+
+.margenForm {
+	margin: 0 300px 0 300px;
+}
+
+.fuenteCinturon {
+	font-size: 1.1rem;
+}
+
+.bottomMargin {
+	margin-bottom: 0.1rem;
+}
+
+.centroColumna {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.textoSlide {
+	color: white;
+	font-weight: 700;
+	text-shadow: 50%;
+
+}
+
+.justificado {
+	display: flex;
+	align-items: center;
+}
+
+.espacioIzq {
+	display: flex;
+	justify-content: center;
+
+
+}
